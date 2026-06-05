@@ -84,6 +84,28 @@
 					<scope>runtime</scope>
 				</dependency>
 
+			<!-- Source: https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa -->
+				<dependency>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>spring-boot-starter-data-jpa</artifactId>
+				</dependency>
+
+				<!-- Source: https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+				<dependency>
+					<groupId>org.postgresql</groupId>
+					<artifactId>postgresql</artifactId>
+					<version>42.7.11</version>
+				</dependency>
+
+			<!-- Lombok Dependency for Getters and Setters-->
+				<dependency>
+					<groupId>org.projectlombok</groupId>
+					<artifactId>lombok</artifactId>
+					<version>1.18.38</version>
+					<optional>true</optional>
+				</dependency>
+
+
 
 	</dependencies>
 
